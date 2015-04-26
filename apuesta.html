@@ -6,6 +6,7 @@
 	<title>Apuesta</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	<script src="numeros.js"></script>
 
@@ -16,45 +17,54 @@
 			<figure class="col-sm-12 logo">
 				<img src="logo.png" />
 			</figure>			
-		</header>		
-		<div class="login">
+		</header>
+	</div>	
+		<div class="login col-sm-12">
 			<h1>¡Bienvenido!</h1>
 			<h1>Ahora empieza a realizar tu apuesta</h1>
-			<nav>
-				<ul class="nav nav-justified">
-					<li><a href="#"><img class="img-nav" src="images/user.png">Mi Cuenta</a></li>
-					<li><a href="#"><img class="img-nav" src="images/money.png">$0.00</a></li>
-					<li><a href="#"><img class="img-nav" src="images/off.png">Salir</a></li>
-				</ul>
-			</nav>
-			<h1>Ingresa los números a jugar</h1>
-			<form action="" method="post" role="form">
-				<div class="col-sm-4 form-group col-xs-4">
-					<select class="form-control" id="mySelect"  onclick="lol();">			
-					</select>
-				</div>
-				<div class="col-sm-4 form-group col-xs-4">
-					<select class="form-control" id="mySelect"  onclick="lol();">			
-					</select>
-				</div>
-				<div class="col-sm-4 form-group col-xs-4">
-					<select class="form-control" id="mySelect"  onclick="lol();">			
-					</select>
-				</div>
-				<div class="col-sm-4 form-group col-xs-4">
-					<select class="form-control" id="mySelect"  onclick="lol();">			
-					</select>
-				</div>
-				<div class="col-sm-4 form-group col-xs-4">
-					<select class="form-control" id="mySelect"  onclick="lol();">			
-					</select>
-				</div>
-				<div class="col-sm-4 form-group col-xs-4">
-					<select class="form-control" id="mySelect"  onclick="lol();">			
-					</select>
-				</div>
-			</form>
-		</div>		
+		</div>
+		<nav>
+			<ul class="nav nav-fixed nav-tabs">
+				<li><a href="cuenta.html"><img class="img-nav" src="images/user.png">Mi Cuenta</a></li>
+				<li><a href="#"><img class="img-nav" src="images/money.png">$0.00</a></li>
+				<li><a href="sigin.html"><img class="img-nav" src="images/off.png">Salir</a></li>
+			</ul>
+		</nav>
+		<div class="login">
+			<div class="login col-sm-12">
+				<h1>Ingresa los números a jugar</h1>
+				<form action="" method="post" role="form">
+					<div class="col-sm-4 form-group col-xs-4">
+						<select class="form-control" id="mySelect"  onclick="lol();">			
+						</select>
+					</div>
+					<div class="col-sm-4 form-group col-xs-4">
+						<select class="form-control" id="mySelect"  onclick="lol();">			
+						</select>
+					</div>
+					<div class="col-sm-4 form-group col-xs-4">
+						<select class="form-control" id="mySelect"  onclick="lol();">			
+						</select>
+					</div>
+					<div class="col-sm-4 form-group col-xs-4">
+						<select class="form-control" id="mySelect"  onclick="lol();">			
+						</select>
+					</div>
+					<div class="col-sm-4 form-group col-xs-4">
+						<select class="form-control" id="mySelect"  onclick="lol();">			
+						</select>
+					</div>
+
+					<div class="col-sm-4 form-group col-xs-4">
+						<select class="form-control" id="mySelect"  onclick="lol();">			
+						</select>
+					</div>
+				</form>
+					<a class="btn btn-danger col-sm-12 form-control" href="#">Jugar números al azar</a>
+					 <span class="caret"></span>
+					<a class="btn btn-success col-sm-12 form-control" href="apu-exitosa.html">Hacer apuesta ($5.500)</a>
+			</div>		
+		</div>
 	</div>
 </body>
 </html>

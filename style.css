@@ -6,12 +6,14 @@
 	font-family: firasans-li;
 	src: url(fonts/FiraSans-Light.otf);
 }
-
 body{
 	background-color: #0B3A72;
 }
 form{
 	padding-bottom: 20px;
+}
+figure{
+	text-align: center;
 }
 h1{
 	color: white;
@@ -26,13 +28,27 @@ label{
 nav ul{
 	padding: 10px;
 	background-color: white;
+	margin: 0;
 }
 nav ul li a{
 	color: black;
 	font-weight: bold;
+	margin: 0;
 }
 p{
 	color: white;
+}
+.btn2{
+	margin-top: 10px;
+}
+.caret{
+	color: #052348;
+}
+.chulo{
+	height: 150px;
+	max-width: 100%;
+	margin-bottom: 30px;
+	width: auto;
 }
 .ingresar{
 	background-color: white;
@@ -43,22 +59,33 @@ p{
 	padding: 20px;
 }
 .img-nav{
-	height: 30px;
-	margin-right: 5px;
+	height: 25px;
+	margin-right: 1px;
 }
 .login{
 	background-color: #052348;
 	border-radius: 5px;
-	margin: 0 auto;
-	padding: 15px;	
+	height: auto;	
+	padding: 10px;	
+}
+.login2{
+	background-color: #052348;
+	border-radius: 5px;
+	height: auto;
+	padding: 30px;	
 }
 .logo{
 	padding: 15px;
 	text-align: center;
 }
 .logo img{
-	height: 150px;
+	height: auto;
 	max-width: 100%;
 	width: auto;
+	text-align: center;
+}
+.saldo{
+	color: yellow;
+	font-family: firasans-hvi;
 	text-align: center;
 }
