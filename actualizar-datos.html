@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Apuesta</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="numeros.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<header class="row">
+			<figure class="col-sm-12 logo">
+				<img src="logo.png" />
+			</figure>			
+		</header>	
+	</div>
+		<nav>
+			<ul class="nav nav-fixed nav-tabs">
+					<li><a href="cuenta.html"><img class="img-nav" src="images/back.png">Atras</a></li>
+					<li><a href="#"><img class="img-nav disabled" src="images/user.png">Balotito</a></li>
+					<li><a href="sigout.html"><img class="img-nav" src="images/off.png">Salir</a></li>			
+			</ul>
+		</nav>
+	<div class="login">
+		<form action="" method="post" role="form">
+			<h3>Actualizar mis datos</h3>
+			<div class="form-group">
+					<label>Cedula</label>
+					<input class="form-control" type="text" name="cc"/>
+				</div>
+				<div class="form-group">
+					<label>Nombre</label>
+					<input class="form-control" type="text" name="nom"/>
+				</div>
+				<div class="form-group">
+					<label>Email</label>
+					<input class="form-control" type="email" name="email"/>
+			    </div>
+				<div class="form-group">
+					<label>Telefono</label>
+					<input class="form-control" type="text" name="text"/>
+			    </div>
+			    <h5>Para cambiar tu contraseña digita la actual y luego la nueva contraseña, si no queres cambiarla solo deja los campos vacios.</h5>
+			    <div class="form-group">
+					<label>Contraseña actual</label>
+					<input class="form-control" type="password" name="pass"/>
+			    </div>
+			    <div class="form-group">
+					<label>Nueva contraseña</label>
+					<input class="form-control" type="password" name="pass"/>
+			    </div>
+			    <div class="form-group">
+					<label>Repetir nueva contraseña</label>
+					<input class="form-control" type="password" name="pass2"/>
+			    </div>
+				<a href="act-exitosa.html" <input class="btn btn-success form-control" type="submit" value="Registrar"/>Actualizar</a>
+		</form>
+	</div>
+</body>
+</html>

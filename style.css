@@ -47,6 +47,9 @@ nav ul li a{
 p{
 	color: white;
 }
+table{
+	width: 100%;
+}
 .apostados{
 	font-size: 20px !important; 
 }
@@ -125,5 +128,12 @@ p{
 .ticket tr{
 	border-bottom: 1px solid lightgray;
 	line-height: 2em;
+}
+.user-delete{
+	height: 150px;
+	max-width: 80%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: auto;
 }
 
